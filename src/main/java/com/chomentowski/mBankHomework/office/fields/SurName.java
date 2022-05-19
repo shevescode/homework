@@ -8,8 +8,8 @@ public class SurName {
     }
 
     public static SurName of(String surName) {
-        if(surName == null || surName.equals("")) {
-            throw new IllegalArgumentException("First name cannot be null or empty");
+        if (surName == null || surName.equals("")) {
+            throw new IllegalArgumentException("Surname cannot be null or empty");
         }
         return new SurName(surName);
     }

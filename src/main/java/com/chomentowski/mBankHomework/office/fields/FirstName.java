@@ -8,8 +8,8 @@ public class FirstName {
     }
 
     public static FirstName of(String firstName) {
-        if(firstName == null || firstName.equals("")) {
-            throw new IllegalArgumentException("First name cannot be null or empty");
+        if (firstName == null || firstName.equals("")) {
+            throw new IllegalArgumentException("Firstname cannot be null or empty");
         }
         return new FirstName(firstName);
     }

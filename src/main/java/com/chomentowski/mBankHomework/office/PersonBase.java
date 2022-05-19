@@ -16,7 +16,7 @@ public abstract class PersonBase {
         return firstName.getValue();
     }
 
-   public String getSurName() {
+    public String getSurName() {
         return surName.getValue();
-   }
+    }
 }

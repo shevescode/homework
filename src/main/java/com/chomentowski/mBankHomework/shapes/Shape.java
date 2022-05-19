@@ -1,5 +1,5 @@
 package com.chomentowski.mBankHomework.shapes;
 
-public interface Shape {
-    double calculateArea();
+public abstract class Shape {
+    abstract double calculateArea();
 }

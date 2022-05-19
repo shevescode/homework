@@ -1,6 +1,6 @@
 package com.chomentowski.mBankHomework.office;
 
-public class Boss extends PersonBase implements PersonInterface{
+public class Boss extends PersonBase implements PersonInterface {
 
     Boss(String firstName, String surName) {
         super(firstName, surName);

@@ -4,10 +4,10 @@ import pl.mbank.exampleRootLibrary.DocumentServerInterface;
 import pl.mbank.exampleRootLibrary.fields.SelectionBoxInterface;
 import pl.mbank.exampleRootLibrary.fields.TextFieldInterface;
 
-public class ProxyDocumentServerInterfaceImpl implements ProxyDocumentServerInterface {
+public class DocumentServerInterfaceFacadeImpl implements DocumentServerInterfaceFacade {
     private final DocumentServerInterface documentServerInterface;
 
-    public ProxyDocumentServerInterfaceImpl(DocumentServerInterface documentServerInterface) {
+    public DocumentServerInterfaceFacadeImpl(DocumentServerInterface documentServerInterface) {
         this.documentServerInterface = documentServerInterface;
     }
 
